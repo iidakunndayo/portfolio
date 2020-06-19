@@ -3,7 +3,33 @@
     
 }*/
 body{
-    margin: 0 auto;
+    margin-top: 0;
     background-color: white;
     font-family: sans-serif;
+}
+
+#header{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 4em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    display: block;
+}
+
+.header{
+    display: inline;
+    font-size: 3em;
+    color: white;
+    background: gray;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#main{
+    text-align: center;
 }
