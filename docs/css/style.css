@@ -48,7 +48,8 @@ a{
     text-decoration: none;
 }
 
-.contact div{
+.contact a{
+    color: #00f;
     text-decoration: none;
     position: inline;
     transition: .3s;
@@ -58,7 +59,24 @@ a{
     opacity: .7;
 }
 
+.contact a:visited{
+    color: blue;
+}
+
 .twitter{
     font-size: medium;
-    color: skyblue;
+    color: #1da1f3;
+}
+
+.facebok{
+    font-size: medium;
+    color: #4966a0;
+}
+
+.github{
+    color: black;
+}
+
+.mail{
+    color: red;
 }
