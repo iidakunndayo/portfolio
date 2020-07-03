@@ -15,6 +15,8 @@ header{
     text-align: center;
     position: sticky;
     top: 0;
+    left: 0;
+    right: 0;
     display: block;
 }
 
@@ -46,39 +48,69 @@ header p{
     padding-top: 5em;
 }
 
+main{
+    margin-left: 600px;
+    margin-right: 600px;
+    font-size: 18px;
+}
+
 header a{
     text-decoration: none;
 }
 
-.contact a{
-    color: #00f;
-    text-decoration: none;
-    position: inline;
-    transition: .3s;
-}
-
-.contact a:hover{
-    opacity: .7;
-}
-
-.contact a:visited{
-    color: blue;
-}
 
 .twitter{
-    font-size: medium;
-    color: #1da1f3;
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 7px;/*角丸に*/
+    display: inline-block;
+    height: 50px;/*高さ*/
+    width: 150px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 25px;/*文字のサイズ*/
+    line-height: 50px;/*高さと合わせる*/
+    background: #1da1f3;
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
 }
 
-.facebok{
-    font-size: medium;
-    color: #4966a0;
+.facebook{
+    color: #ffffff;
+    border-radius: 7px;
+    display: inline-block;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    background: #4966a0;
+    overflow: hidden;
+    text-decoration: none;
 }
 
 .github{
-    color: black;
+    color: #FFF;
+    border-radius: 7px;
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    background: black;
+    overflow: hidden;
+    text-decoration: none;
 }
 
 .mail{
-    color: red;
+    color: #fff;
+    border-radius: 7px;
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    background: black;
+    overflow: hidden;
+    text-decoration: none;
 }
